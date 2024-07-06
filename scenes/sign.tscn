@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cihgr3lpkv1m7"]
+
+[ext_resource type="Texture2D" uid="uid://fy1d658cohuo" path="res://assets/sprites/world_tileset.png" id="1_a6ldn"]
+
+[node name="Sign" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_a6ldn")
+hframes = 16
+vframes = 16
+frame = 56
