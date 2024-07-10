@@ -712,17 +712,6 @@ _data = {
 unique_name_in_owner = true
 script = ExtResource("9_gmvx4")
 
-[node name="ScoreLabel" type="Label" parent="GameManager"]
-offset_left = 290.0
-offset_top = -77.0
-offset_right = 392.0
-offset_bottom = -47.0
-theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
-theme_override_fonts/font = ExtResource("11_xpsnr")
-theme_override_font_sizes/font_size = 8
-text = "You collected 0 coins"
-autowrap_mode = 2
-
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_f3s75")
 format = 2
@@ -757,6 +746,7 @@ position = Vector2(-84, 171)
 shape = SubResource("WorldBoundaryShape2D_3283g")
 
 [node name="Coins" type="Node" parent="."]
+unique_name_in_owner = true
 
 [node name="Coin" parent="Coins" instance=ExtResource("4_jwdpd")]
 position = Vector2(-55, 24)
@@ -834,6 +824,18 @@ theme_override_font_sizes/font_size = 8
 text = "Morning breaks, she smiles,
 Life stirs in her soft caress,
 Your mom is gay"
+
+[node name="ScoreLabel" type="Label" parent="Labels"]
+unique_name_in_owner = true
+offset_left = 290.0
+offset_top = -77.0
+offset_right = 392.0
+offset_bottom = -47.0
+theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
+theme_override_fonts/font = ExtResource("11_xpsnr")
+theme_override_font_sizes/font_size = 8
+text = "You collected 0 coins"
+autowrap_mode = 2
 
 [node name="Enemy2" parent="." instance=ExtResource("6_dev7n")]
 position = Vector2(-104, -6)

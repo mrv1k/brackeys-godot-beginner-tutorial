@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://bh163duy7473p"]
-
-[node name="Bridge" type="Node2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
