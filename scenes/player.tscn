@@ -299,17 +299,16 @@ animations = [{
 radius = 5.0
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(-15, 6)
+position = Vector2(-10, 9)
 script = ExtResource("1_ee31a")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(15, -12)
 sprite_frames = SubResource("SpriteFrames_4f6si")
 animation = &"death"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(15, -6)
+position = Vector2(0, 6)
 shape = SubResource("CircleShape2D_2ixgx")
 
 [node name="CoyoteTimer" type="Timer" parent="."]

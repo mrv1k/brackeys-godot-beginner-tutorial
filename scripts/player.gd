@@ -18,7 +18,6 @@ func _ready():
 func _on_animation_finished():
 	if animated_sprite_2d.animation == "death":
 		is_done = true
-		print("Death animation finished")
 
 func _physics_process(delta):
 	if is_done:
