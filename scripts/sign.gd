@@ -5,5 +5,5 @@ extends Area2D
 
 func _on_body_entered(_body):
 	collision_shape_2d.queue_free()
-	game_manager.add_haiku()
+	game_manager.add_sign()
 
