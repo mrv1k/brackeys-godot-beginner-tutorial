@@ -25,7 +25,6 @@ func add_point():
 
 func add_sign():
 	sign_counter += 1
-	print(sign_counter)
 	if sign_counter == 1:
 		a_label.text = 'Y'
 	elif sign_counter == 2:
